@@ -1,12 +1,12 @@
 ### 01-Reshape.R
-# install.packages("reshape2")
-# library(reshape2)
+install.packages("reshape2")
+library(reshape2)
 
 ## Tidy data
 
 # Values in column names 
 
-raw <- read.csv("data/pew.csv", check.names = F)
+raw <- read.csv("/Users/ericapapke/Documents/INFO523/HW2/Intro/data/pew.csv", check.names = F)
 
 head(raw)
 
